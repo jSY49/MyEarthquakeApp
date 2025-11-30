@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             MyEarthquakeAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Android Git Testing...",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -29,6 +29,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
